@@ -105,16 +105,7 @@ export const Data = {
         period: "2022",
         description: ["Beauty education app. "],
       },
-      {
-        name: "Phonebook",
-        url: "https://yanapeshko.github.io/goit-react-hw-08-phonebook/",
-        company: "Personal project",
-        period: "2022",
-        description: [
-          "The Phonebook App is a simple web application built with React that allows you to store and manage your contacts.",
-          "You can add new contacts, search for existing contacts, and delete contacts from the phonebook.",
-        ],
-      },
+
       {
         name: "Homepics",
         url: "https://movies-app-2igx.vercel.app/",
