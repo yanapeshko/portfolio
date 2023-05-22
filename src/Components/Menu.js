@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import {
   BrowserRouter as Router,
   NavLink,
+  Routes,
   Route,
-  Redirect,
+  Navigate,
 } from "react-router-dom";
 
 export const Menu = ({ menu }) => {
@@ -17,9 +18,9 @@ export const Menu = ({ menu }) => {
   return (
     <header className="l-header" id="header">
       <Router>
-        <Route exact path="/">
-          <Redirect to="/#home" />
-        </Route>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
         <nav className="nav bd-container">
           <span className="nav__logo">Menu</span>
           <div
@@ -53,4 +54,8 @@ export const Menu = ({ menu }) => {
       </Router>
     </header>
   );
+};
+
+const Home = () => {
+  return <Navigate to="/#home" />;
 };

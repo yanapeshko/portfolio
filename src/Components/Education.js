@@ -1,24 +1,22 @@
 import React from "react";
 
-const Education = ({ education }) => {
+export const Education = ({ education }) => {
   return (
-    <section className="education-experience section">
+    <section className="education-experience section" id="education">
       <h2 className="section-title">Education</h2>
       <div className="education__container bd-grid">
-        {education.map((university) => (
-          <University key={university.institution} {...university} />
+        {education.map((school) => (
+          <School key={school.institution} {...school} />
         ))}
       </div>
     </section>
   );
 };
 
-export default Education;
-
-const University = ({ profession, date, institution }) => {
+const School = ({ profession, date, institution }) => {
   return (
     <div className="education__content">
-      <div className="education__period">
+      <div className="education__time">
         <span className="education__rounder"></span>
         <span className="education__line"></span>
       </div>
