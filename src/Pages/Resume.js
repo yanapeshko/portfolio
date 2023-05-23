@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
 
 import { Profile } from "../Components/Profile";
 import { Education } from "../Components/Education";
@@ -14,6 +16,11 @@ import { Data as dataSchema } from "../Schemas/Data";
 import { Menu as menuSchema } from "../Schemas/Menu";
 
 export const Resume = () => {
+  const particlesInit = useCallback(async (engine) => {
+    await loadFull(engine);
+  }, []);
+
+  const particlesLoaded = useCallback(async (container) => {}, []);
   const query = "(min-width: 968px)";
   const [matches, setMatches] = useState(window.matchMedia(query).matches);
 
