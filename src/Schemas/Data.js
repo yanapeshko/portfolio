@@ -8,7 +8,7 @@ export const Data = {
     image: "images/photo.jpg",
   },
   aboutMe: {
-    label: "About",
+    label: "Profile",
     description:
       "I am a highly skilled Full Stack Developer with over 4 years of experience in designing and implementing complex web applications. ",
   },
@@ -97,7 +97,12 @@ export const Data = {
         company: "Personal project",
         period: "2023",
         description: [
-          "Responsive Movie Website with MERN stack and Themoviedb. Features: Sign up / Sign in. Save movie to Favorite list (Remove favorite item). Write review for movie (Delete review). Search movies / tv series / people. Light / Dark theme. ",
+          "Responsive Movie Website with MERN stack and Themoviedb.",
+          "Sign up / Sign in.",
+          "Save movie to Favorite list (Remove favorite item).",
+          "Write review / Delete review for movie.",
+          "Search movies / tv series / people.",
+          "Light / Dark theme.",
         ],
       },
       {
@@ -105,23 +110,38 @@ export const Data = {
         url: "http://skincenter.nyc/",
         company: "Flick Shine Inc",
         period: "2022",
-        description: ["Beauty services app."],
+        description: [
+          "Personalized skincare companion.",
+          "Get expert skincare routines, product recommendations, educational resources, and join a vibrant community.",
+          "Achieve healthy, glowing skin with SkinCenter NYC.",
+        ],
       },
       {
-        name: "360 Beauty Academy",
+        name: "NanoFit",
         url: "https://live.21lab.co/nanofit/",
         company: "Flick Shine Inc",
         period: "2022",
-        description: ["Beauty education app. "],
+        description: [
+          "Personalized fitness app.",
+          "Get customized workout plans, detailed exercise demos, advanced tracking, and connect with a supportive fitness community.",
+          "Take control of your fitness journey with NanoFit. ",
+        ],
+      },
+      {
+        name: "Soho Barbers",
+        url: "https://sohonycbarbers.com/",
+        company: "Flick Shine Inc",
+        period: "2022",
+        description: [
+          "Convenient and user-friendly application designed to connect customers with local barbers.",
+        ],
       },
       {
         name: "Learn English",
         url: "https://yaroslavknysh.github.io/team_project_13_37/",
         company: "GO IT School Team project",
         period: "2021",
-        description: [
-          "The website of an English teacher is a valuable online resource designed to support language learners in their journey to improve their English proficiency.",
-        ],
+        description: ["The website of an English teacher."],
       },
     ],
   },
