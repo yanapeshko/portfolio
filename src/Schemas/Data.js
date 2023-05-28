@@ -10,7 +10,7 @@ export const Data = {
   aboutMe: {
     label: "About",
     description:
-      "I am a highly skilled Full Stack Developer with over 4 years of experience in designing and implementing complex web applications. ",
+      "I am a highly skilled Full Stack Developer with over 4 years of experience in designing and implementing complex web applications. My expertise lies in developing responsive and user-friendly interfaces, server-side scripting, database management, and application deployment. ",
   },
   skills: {
     technicalLabel: "Technologies",
