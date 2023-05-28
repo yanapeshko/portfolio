@@ -8,7 +8,7 @@ export const Data = {
     image: "images/photo.jpg",
   },
   aboutMe: {
-    label: "Profile",
+    label: "About",
     description:
       "I am a highly skilled Full Stack Developer with over 4 years of experience in designing and implementing complex web applications. ",
   },
