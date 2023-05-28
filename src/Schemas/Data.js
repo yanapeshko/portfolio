@@ -100,7 +100,7 @@ export const Data = {
         description: [
           "Responsive Movie Website with MERN stack and Themoviedb.",
           "Sign up / Sign in.",
-          "Save movie to Favorite list (Remove favorite item).",
+          "Save movie to Favorite list / Remove favorite item.",
           "Write review / Delete review for movie.",
           "Search movies / tv series / people.",
           "Light / Dark theme.",
