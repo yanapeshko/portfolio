@@ -92,6 +92,15 @@ export const Data = {
     ],
     projects: [
       {
+        name: "Homepics",
+        url: "https://movies-app-2igx.vercel.app/",
+        company: "Personal project",
+        period: "2023",
+        description: [
+          "Responsive Movie Website with MERN stack and Themoviedb. Features: Sign up / Sign in. Save movie to Favorite list (Remove favorite item). Write review for movie (Delete review). Search movies / tv series / people. Light / Dark theme. ",
+        ],
+      },
+      {
         name: "Skin Center NYC - Best Nonsurgical Way Treatments",
         url: "http://skincenter.nyc/",
         company: "Flick Shine Inc",
@@ -105,14 +114,13 @@ export const Data = {
         period: "2022",
         description: ["Beauty education app. "],
       },
-
       {
-        name: "Homepics",
-        url: "https://movies-app-2igx.vercel.app/",
-        company: "Personal project",
-        period: "2023",
+        name: "Learn English",
+        url: "https://yaroslavknysh.github.io/team_project_13_37/",
+        company: "GO IT School Team project",
+        period: "2021",
         description: [
-          "Responsive Movie Website with MERN stack and Themoviedb. Features: Sign up / Sign in. Save movie to Favorite list (Remove favorite item). Write review for movie (Delete review). Search movies / tv series / people. Light / Dark theme. ",
+          "The website of an English teacher is a valuable online resource designed to support language learners in their journey to improve their English proficiency.",
         ],
       },
     ],
