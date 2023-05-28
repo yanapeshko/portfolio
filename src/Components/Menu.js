@@ -14,6 +14,9 @@ export const Menu = ({ menu }) => {
     window.location.hash = e.target.hash;
     setShow(!show);
   };
+  const Home = () => {
+    return <Navigate to="/#home" />;
+  };
 
   return (
     <header className="l-header" id="header">
@@ -54,8 +57,4 @@ export const Menu = ({ menu }) => {
       </Router>
     </header>
   );
-};
-
-const Home = () => {
-  return <Navigate to="/#home" />;
 };
