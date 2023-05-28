@@ -29,7 +29,8 @@ export const Data = {
       "Node.js",
       "Express",
       "Styled-components/Material-UI",
-      "MongoDB/AWS/Firebase",
+      "MongoDB",
+      "AWS/Firebase",
     ],
     softSkills: [
       "Astute",
