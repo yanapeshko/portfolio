@@ -85,7 +85,7 @@ export const Data = {
         institution: "GO IT School",
       },
       {
-        profession: "Document science and Information activity",
+        profession: "Information activity and Document science",
         date: "2009-2012",
         institution: "European University",
       },
