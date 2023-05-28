@@ -6,8 +6,8 @@ export const Menu = {
       className: "bx-home",
     },
     {
-      label: "Profile",
-      section: "#profile",
+      label: "About",
+      section: "#about",
       className: "bx-user",
     },
     {
