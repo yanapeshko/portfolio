@@ -2,9 +2,9 @@ export const Data = {
   profile: {
     name: "Yana Peshko",
     occupation: "Full Stack Developer",
-    location: "Toronto, Canada",
+    location: "Phoenix, AZ, US",
     email: "yanapeshko917@gmail.com",
-    telephone: "+1 4373312094",
+    telephone: "602.574.3216",
     image: "images/photo.jpg",
   },
   aboutMe: {
