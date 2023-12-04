@@ -10,7 +10,7 @@ export const Data = {
   aboutMe: {
     label: "About",
     description:
-      "I am a highly skilled Full Stack Developer with almost 2 years of experience in designing and implementing complex web applications. My expertise lies in developing responsive and user-friendly interfaces, server-side scripting, database management, and application deployment. ",
+      "I am a highly skilled Full Stack Developer with almost 3 years of experience in designing and implementing complex web applications. My expertise lies in developing responsive and user-friendly interfaces, server-side scripting, database management, and application deployment. ",
   },
   skills: {
     technicalLabel: "Technologies",
@@ -64,7 +64,7 @@ export const Data = {
     works: [
       {
         title: "WEB DEVELOPER",
-        period: "March 2022 - Present",
+        period: "March 2021 - Present",
         company: "Flick Shine Inc.",
         description: [
           "Working with a team of 5 people in developing WordPress plugins and creating components in React.js to build custom websites for clients in the beauty education and beauty services industries.",
