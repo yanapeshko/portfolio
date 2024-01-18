@@ -64,7 +64,7 @@ export const Data = {
     works: [
       {
         title: "WEB DEVELOPER",
-        period: "March 2021 - Present",
+        period: "March 2021 - January 2024",
         company: "Flick Shine Inc.",
         description: [
           "Working with a team of 5 people in developing WordPress plugins and creating components in React.js to build custom websites for clients in the beauty education and beauty services industries.",
